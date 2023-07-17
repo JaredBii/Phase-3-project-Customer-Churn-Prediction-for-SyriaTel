@@ -1,4 +1,3 @@
-# Phase-3-project-Customer-Churn-Prediction-for-SyriaTel
 # Customer Churn Prediction for SyriaTel.
 
 * Student name: GROUP 9
@@ -31,9 +30,10 @@ c. To Provide insights and recommendations to SyriaTel for effective churn manag
 
 
 ## Data
-For this project, we have chosen the "SyriaTel Customer Churn" dataset. The dataset provides a comprehensive set of customer-related features that can be used to analyze and predict customer churn.The features of this dataset provide valuable insights into customer behavior, usage patterns, and account details. The column names include various customer-related information such as 'state', 'account length', 'area code', 'phone number', 'international plan', 'voice mail plan', 'number vmail messages', and several other features related to call duration, charges, and customer service interactions. This suggests that the dataset covers a wide range of customer attributes. 
-By analyzing this data, we aim to develop a predictive model that can identify customers who are likely to churn.By leveraging the available features, such as call duration, usage patterns, and customer service interactions, we can gain a better understanding of the factors contributing to customer churn and explore potential strategies to reduce churn rates. 
+For this project, we have chosen the "SyriaTel Customer Churn" dataset. The dataset provides various customer-related information such as 'state', 'account length', 'area code', 'phone number', 'international plan', 'voice mail plan', 'number vmail messages', and several other features related to call duration, charges, and customer service interactions. This suggests that the dataset covers a wide range of customer attributes. 
+
 This dataset is particularly suitable for our objectives, as it provides the necessary information to understand customer behavior and predict churn.
+
 SyriaTel Customer Churn" dataset has 3333 rows and 21 columns.The dataset contains data including: 
 1. daytime calls, minutes and pricing.
 2. night time calls, minutes and pricing.
@@ -44,6 +44,7 @@ SyriaTel Customer Churn" dataset has 3333 rows and 21 columns.The dataset contai
 
 
 ## Methods
+
 The project will follow the following steps:
 
 a. Exploratory Data Analysis: We will perform an in-depth exploration of the dataset to gain insights into the distribution of variables, identify patterns, and detect any data quality issues.
@@ -60,9 +61,11 @@ f. Model Optimization: We will fine-tune the selected model by adjusting hyperpa
 
 In each model the performance metrics; accuracy, precision, recall and f1 score were calculated. Confusion matrix for each model was also plotted. The best model is then evaluated from the four models. For Decision Trees only, feature importance to see which features played a role in customer churn is provided.
 
+
 ## Exploratory Data Analysis
 
 ## Modelling
+
 ### Logistic Regression Model
 Logistic regression is a regression analysis technique that is specifically designed for situations where the dependent variable is categorical and can only take discrete values.
 
@@ -78,6 +81,7 @@ Logistic regression is a regression analysis technique that is specifically desi
 5. AUC Score: The AUC score of 0.799181 suggests reasonable discrimination ability in distinguishing between positive and negative instances.
 
 Overall, the observations reveal limitations in correctly identifying positive instances (low recall) and achieving a balanced precision and recall (low F1 score). Further analysis and model refinement may be necessary to enhance performance.
+
 
 ###  K-Nearest Neighbors
 The k-nearest neighbors (KNN) algorithm is a supervised machine learning method that estimates the probability of a data point belonging to a particular group by considering the group memberships of its nearest neighboring data points.
@@ -96,6 +100,7 @@ The k-nearest neighbors (KNN) algorithm is a supervised machine learning method 
 
 Overall, the observations indicate that the KNN model may have limitations in correctly identifying positive instances (low recall), and its overall performance in terms of precision, recall, and discrimination ability is relatively poor. Further analysis and model refinement may be necessary to improve its performance.
 
+
 ### Decision Trees
 Decision Trees (DTs) are a type of supervised learning technique used for classification and regression tasks. The objective is to build a model that can predict the value of a target variable based on simple decision rules learned from the features present in the data.
 
@@ -112,6 +117,8 @@ Decision Trees (DTs) are a type of supervised learning technique used for classi
 5. ROC AUC Score: The ROC AUC score of 0.853 represents the Area Under the Receiver Operating Characteristic Curve (ROC AUC). This metric assesses the model's ability to distinguish between positive and negative instances.
 
 Overall, the observations suggest that the decision tree model performs well in terms of accuracy, precision, recall, F1 score, and discrimination ability. However, further analysis and validation with additional evaluation metrics may be necessary to gain a more comprehensive understanding of the model's performance.
+
+
 
 ### Random Forests
 Random Forests are machine learning algorithm used for both classification and regression tasks. It combines the predictions of multiple individual models to make final prediction.
@@ -147,16 +154,20 @@ Overall, the observations suggest that the random forest model performs well in 
 
 In summary, the Decision Tree and Random Forest models generally perform better across multiple evaluation metrics, including accuracy, precision, recall, F1 score, and ROC AUC score. Logistic Regression performs moderately, while KNN shows relatively lower performance in most of the evaluation metrics.
 
+
 ### Feature Importance
 1. The most important feature for predicting churn is **total day charge**, which has a score of 0.268983. This means that the amount of money a customer spends on day calls is a strong predictor of whether they will churn.
+
 2. The second most important feature is **customer service calls**, which has a score of 0.113732. This means that customers who make more customer service calls are more likely to churn.
+
 3. Other important features include **total eve charge**, **total intl charge**, and **international plan_yes**. These features all relate to the amount of money a customer spends on their phone service, which is a strong predictor of churn.
+
 4. The least important features are **account length**, **area code**, and **number vmail messages**. These features do not seem to be very predictive of churn.
 
 Overall, the feature importance indicates that the amount of money a customer spends on their phone service is a strong predictor of whether they will churn. Other important factors include the number of customer service calls a customer makes and whether they have an international plan.
 
 
-## Conclusions / Summary of Findings
+## Conclusions
 
 Decision Tree model appears to be the best performer among the four models. This would be the best Model for the Syria Tel Telecommunication Company to use to predict which customer will unsubscribe from their services and take precautionary steps to reduce the churn rate.
 
@@ -172,7 +183,10 @@ The Most important features for predicting churn are:
 
 
 * **Focus on reducing the amount of money customers spend on day calls.** This is the most important factor in predicting churn, so it is the most important area to focus on. This could be done by offering discounts on day calls, or by providing customers with more affordable alternatives to day calls.
+
 * **Reduce the number of customer service calls.** Customers who make more customer service calls are more likely to churn. This could be done by improving the customer service experience, or by making it easier for customers to resolve their issues without having to call customer service.
+
 * **Consider offering international plans.** Customers who have international plans are less likely to churn. This could be done by offering more affordable international plans, or by making it easier for customers to sign up for international plans.
+
 * **Ignore account length, area code, and number vmail messages.** These features are not very predictive of churn, so there is no need to focus on them.
 
