@@ -1,4 +1,4 @@
-# Customer Churn Prediction for SyriaTel.
+# Predicting Customer Churn for SyriaTel Telecommunications Company.
 
 * Student name: GROUP 9
 * Members: 
@@ -14,11 +14,13 @@
 
 
 ## Background
-Customer churn is one of the most important factors to consider is measuring its success or growth.In that sense, it affects every company. By definition, customer churn refers to the percentage of customers that stopped using your product or service during a certain period of time.SyriaTel Telecommunications Company in abid to measure its customer churn, identified the causes. Therefore using machinelearning algorithmns, we are going to provide the most accurate response for future predictions.
+
+Customer churn is one of the most important factors to consider in measuring any company's success or growth. By definition, customer churn refers to the percentage of customers that stopped using your product or service during a certain period of time. SyriaTel Telecommunications Company in a bid to measure its customer churn, identified the causes. Therefore using machine learning algorithmns, we can give the most accurate predictions for future predictions.
 
 
 ## Business Problem
-In an ideal world, customer retention would be 100 percent. It is the dream of every business to retain as well as add more customers, howerver, customer attrition is an everyday thing. In this case, SyriaTel Telecommunications Company first identified the causes of customer attrition. Then using machine learning algorithms, we can predict which would give us the most accurate predictions for future predictions.
+
+In an ideal environment, every business would retain all of its customers. However, customer attrition is a reality that all businesses must face. SyriaTel Telecommunications Company has taken steps to address this issue by identifying the causes of customer attrition. Therefore we can use machine learning algorithms to predict which customers are most likely to churn. This information can be used to target customers with specific interventions to prevent them from churning.
 
 The primary objectives of this project are as follows:
 
@@ -188,5 +190,4 @@ The Most important features for predicting churn are:
 
 * **Consider offering international plans.** Customers who have international plans are less likely to churn. This could be done by offering more affordable international plans, or by making it easier for customers to sign up for international plans.
 
-* **Ignore account length, area code, and number vmail messages.** These features are not very predictive of churn, so there is no need to focus on them.
-
+* **Ignore account length, area code, and number email messages.** These features are not very predictive of churn, so there is no need to focus on them.
