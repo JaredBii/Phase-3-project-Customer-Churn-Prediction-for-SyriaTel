@@ -68,17 +68,26 @@ In each model the performance metrics; accuracy, precision, recall and f1 score 
 ## Univariate analysis
 Sample univariate analysis visualization:
 
-
+1. Distribution of the target variable 'churn'
+   
 ![image](https://github.com/JaredBii/Phase-3-project-Customer-Churn-Prediction-for-SyriaTel/assets/29143340/09036c5c-fefc-44bd-8e47-87c654f62178)
+
+2. Distribution and potential outliers of the 'customer service calls' variable:
 
 ![image](https://github.com/JaredBii/Phase-3-project-Customer-Churn-Prediction-for-SyriaTel/assets/29143340/6ba52c02-8de9-4622-b2bb-54a8ef35b33c)
 
+3. Frequency of customers with and without the 'international plan':
+
 ![image](https://github.com/JaredBii/Phase-3-project-Customer-Churn-Prediction-for-SyriaTel/assets/29143340/f41cf7a0-55b3-4848-96b1-4cb66b03f71b)
+
+4. Distribution Plots for all features:
 
 ![image](https://github.com/JaredBii/Phase-3-project-Customer-Churn-Prediction-for-SyriaTel/assets/29143340/2bfdb34c-ae9c-4804-9e48-1338079b201a)
 
 ## Bivariate analysis
 Sample bivariate analysis done:
+
+1. Correlation matrix
 
 
 ![image](https://github.com/JaredBii/Phase-3-project-Customer-Churn-Prediction-for-SyriaTel/assets/29143340/8e147bb5-f3cd-4b20-b5d5-bb3e820b74d8)
