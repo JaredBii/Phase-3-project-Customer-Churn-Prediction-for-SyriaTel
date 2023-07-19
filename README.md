@@ -67,6 +67,8 @@ In each model the performance metrics; accuracy, precision, recall and f1 score 
 ## Exploratory Data Analysis
 ## Univariate analysis
 Sample univariate analysis visualization:
+
+
 ![image](https://github.com/JaredBii/Phase-3-project-Customer-Churn-Prediction-for-SyriaTel/assets/29143340/09036c5c-fefc-44bd-8e47-87c654f62178)
 ![image](https://github.com/JaredBii/Phase-3-project-Customer-Churn-Prediction-for-SyriaTel/assets/29143340/6ba52c02-8de9-4622-b2bb-54a8ef35b33c)
 ![image](https://github.com/JaredBii/Phase-3-project-Customer-Churn-Prediction-for-SyriaTel/assets/29143340/f41cf7a0-55b3-4848-96b1-4cb66b03f71b)
@@ -74,6 +76,8 @@ Sample univariate analysis visualization:
 
 ## Bivariate analysis
 Sample bivariate analysis done:
+
+
 ![image](https://github.com/JaredBii/Phase-3-project-Customer-Churn-Prediction-for-SyriaTel/assets/29143340/8e147bb5-f3cd-4b20-b5d5-bb3e820b74d8)
 
 
