@@ -72,15 +72,15 @@ In each model the performance metrics; accuracy, precision, recall and f1 score 
 Logistic regression is a regression analysis technique that is specifically designed for situations where the dependent variable is categorical and can only take discrete values.
 
 #### Observations 
-1. Accuracy: The model's accuracy is 85%, indicating the percentage of correctly predicted instances. 
+1. Accuracy: The model's accuracy is 85.46%, indicating the percentage of correctly predicted instances. 
 
-2. Precision: The precision is 51.5%, implying that only half of the predicted positive instances are actually true positives.
+2. Precision: The precision is 56.25%, implying that only half of the predicted positive instances are actually true positives.
 
-3. Recall: The recall is 16.83%, indicating the model's ability to correctly identify positive cases among all actual positive cases.
+3. Recall: The recall is 17.83%, indicating the model's ability to correctly identify positive cases among all actual positive cases.
 
-4. F1 Score: The F1 score, at 0.253731, represents a moderate balance between precision and recall.
+4. F1 Score: The F1 score, at 0.270677, represents a moderate balance between precision and recall.
 
-5. AUC Score: The AUC score of 0.799181 suggests reasonable discrimination ability in distinguishing between positive and negative instances.
+5. AUC Score: The AUC score of 0.80338 suggests reasonable discrimination ability in distinguishing between positive and negative instances.
 
 Overall, the observations reveal limitations in correctly identifying positive instances (low recall) and achieving a balanced precision and recall (low F1 score). Further analysis and model refinement may be necessary to enhance performance.
 
